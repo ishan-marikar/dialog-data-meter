@@ -28,5 +28,17 @@
     "pretty-bytes": "^3.0.1",
     "request": "^2.69.0",
     "superagent": "^1.7.2"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishan-marikar/dialog-data-meter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ishan-marikar/dialog-data-meter/issues"
+  },
+  "homepage": "https://github.com/ishan-marikar/dialog-data-meter#readme"
 }
