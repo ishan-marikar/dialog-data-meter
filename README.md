@@ -107,7 +107,7 @@ var iteration = 0;
 dialog.once('update', function(info){
   // Clears the screen.
   process.stdout.write('\033c');
-  console.log('Iteration:', number++);
+  console.log('Iteration:', iteration++);
   console.log(
     'Package Name:',
     info.packageName

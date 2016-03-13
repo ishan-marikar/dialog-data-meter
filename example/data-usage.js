@@ -1,6 +1,6 @@
 var bytes = require('pretty-bytes');
 var dataUsage = require('../index').create({
-  connectionNumber: 0114187711,
+  connectionNumber: 114187711,
   type: 'LTE',
   interval: 5000,
 });
