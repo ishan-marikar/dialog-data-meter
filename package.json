@@ -1,0 +1,32 @@
+{
+  "name": "dialog-data-usage",
+  "version": "0.1.0",
+  "description": "A module to measure and monitor your Dialog 4G/LTE data usage",
+  "main": "index.js",
+  "keywords": [
+    "dialog",
+    "telecom",
+    "telekom",
+    "data",
+    "4g",
+    "sri lanka",
+    "api",
+    "network",
+    "router",
+    "balance",
+    "meter"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ishan Marikar <ishan.marikar@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "browser-request": "^0.3.3",
+    "bytes": "^2.3.0",
+    "moment": "^2.11.2",
+    "pretty-bytes": "^3.0.1",
+    "request": "^2.69.0",
+    "superagent": "^1.7.2"
+  }
+}
