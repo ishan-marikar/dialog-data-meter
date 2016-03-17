@@ -1,16 +1,16 @@
-# dialog-data-meter
+# dialog-data-usage
 A module to measure and monitor your Dialog 4G/LTE data usage
 
 ## Installation
-  npm install dialog-router-api --save
+  npm install dialog-data-usage --save
 
 ## Notes
-I don't know if this is legal or not, but I hope no harm will come out with me releasing this module.
+I don't know if this is legal or not (since I'm using some of their internal APIs), but I hope no harm will come out with me releasing this module. Please don't sue me Dialog (^^").
 
 ## Usage
 
 ```js
-var dialog = require('dailog-data-meter').create({
+var dialog = require('dialog-data-usage').create({
   connectionNumber: 114123456,
   type: 'LTE',
   interval: 5000, // milliseconds
@@ -61,6 +61,9 @@ dialog.getDataUsage(function(error, data){
 
 ### getDataUsageHistory(error, data)
 Responds with your your data sessions over a certain time period.
+
+__Note: This doesn't seem to work anymore because they've patched their API, and
+actually started verifying data it receives. It now needs your IMSI (globally-unique code number that identifies a GSM subscriber to the network).__
 
 ```js
 dialog.getDataUsageHistory(function(error, data){
