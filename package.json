@@ -1,6 +1,6 @@
 {
   "name": "dialog-data-usage",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A module to measure and monitor your Dialog 4G/LTE data usage",
   "main": "index.js",
   "keywords": [
