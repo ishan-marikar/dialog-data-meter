@@ -12,7 +12,7 @@ I don't know if this is legal or not (since I'm using some of their internal API
 ```js
 var dialog = require('dialog-data-usage').create({
   connectionNumber: 114123456,
-  type: 'LTE',
+  type: 'LTE', // LTE, prepaid
   interval: 5000, // milliseconds
   limit: 80 // %
 });
