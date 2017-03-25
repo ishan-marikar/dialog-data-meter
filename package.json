@@ -23,7 +23,7 @@
   "license": "ISC",
   "dependencies": {
     "browser-request": "^0.3.3",
-    "bytes": "^2.3.0",
+    "bytes": "^2.5.0",
     "debug": "^2.2.0",
     "moment": "^2.11.2",
     "pretty-bytes": "^4.0.2",
