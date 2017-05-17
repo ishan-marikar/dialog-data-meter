@@ -24,7 +24,7 @@
   "dependencies": {
     "browser-request": "^0.3.3",
     "bytes": "^2.3.0",
-    "debug": "^2.2.0",
+    "debug": "^2.6.7",
     "moment": "^2.11.2",
     "pretty-bytes": "^4.0.2",
     "request": "^2.69.0",
