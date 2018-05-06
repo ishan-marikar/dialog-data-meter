@@ -26,7 +26,7 @@
     "bytes": "^2.3.0",
     "debug": "^2.2.0",
     "moment": "^2.11.2",
-    "pretty-bytes": "^4.0.2",
+    "pretty-bytes": "^5.0.0",
     "request": "^2.69.0",
     "superagent": "^3.3.2"
   },
