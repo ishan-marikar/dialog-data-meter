@@ -1,3 +1,5 @@
+# dialog-data-usage made use of an API issue with Dialog Axiata's systems that have been patched long time ago and as a result, this module won't work anymore
+
 # dialog-data-usage
 A module to measure and monitor your Dialog 4G/LTE data usage
 
